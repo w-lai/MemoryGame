@@ -1,0 +1,76 @@
+/* CSS styling :) */
+
+
+
+/* adjust defaults */
+body {
+  background-color: white;
+  color: black;
+}
+h1 {
+  font-family: times, verdana, sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  background: OldLace;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lawngreen;
+}
+
+#button1:active, #button1.lit {
+  background:greenyellow;
+}
+
+#button2 {
+  background: moccasin;
+}
+
+#button2:active, #button2.lit {
+  background:mintcream;
+}
+
+#button3 {
+  background: deeppink;
+}
+
+#button3:active, #button3.lit {
+  background: fuchsia;
+}
+
+#button4 {
+  background: DarkOrchid;
+}
+
+#button4:active, #button4.lit {
+  background: DarkMagenta;
+}
+
+#button5 {
+  background: Chocolate;
+}
+
+#button5:active, #button5.lit {
+  background: Coral;
+}
+
+#button6 {
+  background: Aqua;
+}
+
+#button6:active, #button6.lit {
+  background: Aquamarine;
+}
